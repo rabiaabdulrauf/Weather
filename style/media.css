@@ -1,0 +1,61 @@
+@media (max-width:600px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .header {
+        background: #1F1F1F;
+        padding: 6vw 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        overflow-x: hidden;
+        justify-content: center;
+    }
+    .search-bar {
+        background: white;
+        padding: 2vw 2vw;
+        border-radius: 5px;
+        display: flex;
+        margin-top: 3vw;
+        overflow-x: hidden;
+        margin-right: 8vw;
+    }
+    .search-bar input{
+        border: transparent;
+        font-size: 4vw;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 400px;
+        overflow-x: hidden;
+    }
+    .temp{
+        font-size: 10vw;
+        margin-top: 8vw;
+    }
+    .city{
+        font-size: 9vw;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-top: .5vw;
+    }
+    .details{
+        display: flex;
+        gap: 4em;
+        margin-top: 10vw;
+    }
+    .humidity{
+        font-size: 5vw;
+        font-weight: 600;
+        margin-left: .6vw;
+    }
+    .wind{
+        font-size: 5vw;
+        font-weight: 600;
+        margin-left: .6vw;
+    }
+}

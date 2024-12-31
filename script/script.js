@@ -10,6 +10,6 @@ searchButton.addEventListener('click', () => {
     } else {
      alert("Please enter a city name")
     }
-    location.href="index.html";
+    location.href="weather.html";
   });
   
