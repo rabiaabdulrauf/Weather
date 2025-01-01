@@ -1,0 +1,32 @@
+@media (max-width:600px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .main-container{
+        /* padding: 6vw 2vw; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        overflow-x: hidden;
+        justify-content: center;
+        
+    }
+    .search-bar {
+        background: white;
+        padding: 2vw 2vw;
+        border-radius: 5px;
+        display: flex;
+        margin-top: -4vw;
+        overflow-x: hidden;
+        /* margin-right: 8vw; */
+        width: auto;
+    }
+    .search-bar input{
+        border: transparent;
+        font-size: 3vw;
+    }
+    .search-bar i{
+        font-size: medium;
+    }
+}

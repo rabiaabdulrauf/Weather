@@ -5,7 +5,7 @@
     font-family: 'Poppins',sans-serif;
 }
 .main-container{
-    background-image: url("/assets/bg\ image.jpg");
+    background-image: url("../assets/bg\ image.jpg");
     height: 400px;
     width: 100%;
     background-size: cover;
